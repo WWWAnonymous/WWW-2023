@@ -1,12 +1,12 @@
-# A Flexible Measurement-based Modeling Method
+# A Flexible Measurement-based Modeling Generator
 
 ### About
 
-In order to facilitate the interested reader to better apply our measurement findings, we have implemented the complete modeling method based on Python and provided the necessary processed data to support it. In addition, this project uses GDP as well as geographic data from some regions of the USA as an example to help readers understand the implementation details. Hope this project can provide a real experience for the research and application of edge computing.
+In order to facilitate the interested reader to better apply our measurement findings, we have implemented the complete modeling generator based on Python and provided the necessary quantitative data to support it. In addition, this project uses GDP as well as geographic data from some regions of the USA as an example to help readers understand the implementation details. Hope this project can provide a real experience for the research and application of edge computing.
 
-> Large-Scale Measurement of a Commercial Edge Computing Platform: Consolidation from Servers, Services and Requests. (Anonymized for double-blind review.)
+> Large-Scale Measurement of a Commercial Edge Computing Platform: Consolidation from Servers, Services and Requests (Anonymized for double-blind review)
 
-Note: The GDP and geographic data used in this project are obtained from Wikipedia and are different from the measurement in the paper.
+Note: The GDP and geographic data used in this project are obtained from Wikipedia.
 
 ### Prerequisites
 
@@ -18,9 +18,9 @@ pip3 install -r requirements.txt
 
 ### Project
 
-- data - Includes the measurement data to support the project
+- quantified_data - Includes the measurement data to support the project
 - input_data - Includes GDP/population and geographic data for the target area as input, and currently is some regions of the USA
-- out - includes the output result data obtained by running the project
+- output_data - includes the output result data obtained by running the project
 
 ### Getting Started
 
