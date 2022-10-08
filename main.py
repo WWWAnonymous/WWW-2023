@@ -395,7 +395,7 @@ def edge_server(GDP_addr, geographic_addr):
     edge_server_step5(GDP_data, device_resource_list, geographic_data)
     return 0
 
-# Input any container type corresponding to Fig. 8 in the paper (e.g., [1, 14, 8, 1] four containers),
+# Input any container type corresponding to Fig. 9 in the paper (e.g., [1, 14, 8, 1] four containers),
 # it can output the resource variations of the containerized service over the day that match the
 # distribution pattern of the real dataset.
 def containerized_service(variance_addr, average_addr, target_docker_list):
@@ -504,7 +504,7 @@ if __name__ == '__main__':
     # matches the distribution pattern of the real data set can be output.
     edge_server(args.GDP_addr, args.geographic_addr)
 
-    # Input any container type corresponding to Fig. 8 in the paper (e.g., [7, 5, 15, 7] four containers),
+    # Input any container type corresponding to Fig. 9 in the paper (e.g., [7, 5, 15, 7] four containers),
     # it can output the resource variations of the containerized service over the day that match the
     # distribution pattern of the real dataset.
     containerized_service(args.docker_resource_variance, args.docker_resource_average, [7, 5, 15, 7])
