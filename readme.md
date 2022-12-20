@@ -29,6 +29,12 @@ pip3 install -r requirements.txt
 * Run:  ` python3 main.py`
 * Result: Read and analyze the file in "\out".
 
+### Main Process
+
+* **Edge Server:** Input GDP/population data and geographic data of any target area, the corresponding edge server model that matches the distribution pattern of the real data set can be output.
+* **Containerized Service:** Input any container type corresponding to Fig. 9 in the paper (e.g., [7, 5, 15, 7] four containers), it can output the resource variations of the containerized service over the day that match the distribution pattern of the real dataset.
+* **User Request:** Input the number of users (e.g., 132034) and the length of time required for the data (e.g., 30), it can be generated per user request in every second.
+
 ### Version
 * 0.1 beta
 

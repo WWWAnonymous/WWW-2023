@@ -300,8 +300,8 @@ def edge_server_step4(disk_distribution_each_region, memory_distribution_each_re
         device_resource_list[region] = device_resource_tmp
     return device_resource_list
 
-    # step 5: The goal of this step is to take the geographic distribution of GDP/population and the edge server resource
-    #         allocation in the region as input to output the geographic distribution of edge servers in this region.
+# step 5: The goal of this step is to take the geographic distribution of GDP/population and the edge server resource
+#         allocation in the region as input to output the geographic distribution of edge servers in this region.
 def edge_server_step5(GDP_data, device_resource_list, geographic_data):
     print('Step 5 - start')
     cur_bias = cal_bias_geo(GDP_data, device_resource_list)
